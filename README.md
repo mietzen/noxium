@@ -23,11 +23,20 @@ Prerequisite: [zsh](http://www.zsh.org/) and [Oh-my-zsh](https://github.com/ohmy
     ```
 #### Full (Like in the picture)
 
-1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    ```zsh
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
+   and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)    
+    ```zsh
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    ```    
 
-2. [Install Base16 Shell](https://github.com/chriskempson/base16-shell#installation)
-
+2. [Install Base16 Shell](https://github.com/chriskempson/base16-shell)
+    ```zsh
+    git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+    ```
+    
 3. Download the theme in your oh-my-zsh's themes directory:
 
     ```zsh
@@ -37,12 +46,12 @@ and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/
 4. Download the minimal `.zshrc` from the Repo:
 
     ```zsh
-     mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
+    mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
     ```
 
 5. Pick a Base16 color theme:
     ```zsh
-     base16_flat
+    base16_flat
     ```
 
 ### License
