@@ -1,6 +1,6 @@
 # Noxium 
 
-Fork of Nox by [Kabir Shah](https://kabir.sh)
+Fork of [Nox](https://github.com/kbrsh/nox) by [Kabir Shah](https://kabir.sh)
 
 ![Noxium](https://raw.githubusercontent.com/mietzen/noxium/master/img/noxium.png)
 
