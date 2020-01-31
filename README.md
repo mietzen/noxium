@@ -4,10 +4,12 @@ Fork of Nox by [Kabir Shah](https://kabir.sh)
 
 ![Noxium](https://raw.githubusercontent.com/mietzen/noxium/master/img/noxium.png)
 
-### Install
+### Install 
+
+Prerequisite: [zsh](http://www.zsh.org/) and [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) are installed
 
 
-#### [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+#### Minimal
 
 1. Download the theme in your oh-my-zsh's themes directory:
 
@@ -19,32 +21,29 @@ Fork of Nox by [Kabir Shah](https://kabir.sh)
     ```zsh
      ZSH_THEME="noxium"
     ```
-   Or download the minimal `.zshrc` from the Repo:
+#### Full (Like in the picture)
+
+1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
+2. [Install Base16 Shell](https://github.com/chriskempson/base16-shell#installation)
+
+3. Download the theme in your oh-my-zsh's themes directory:
+
+    ```zsh
+    wget -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/noxium.zsh-theme https://raw.githubusercontent.com/mietzen/noxium/master/noxium.zsh-theme
+    ```
+
+4. Download the minimal `.zshrc` from the Repo:
 
     ```zsh
      mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
     ```
 
-### Tip
-
-Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-
-### Color Palette
-
-* Shades
-  * `HSL(200, 31%, 14%)` - `#19272f`
-  * `HSL(200, 31%, 29%)` - `#335261`
-  * `HSL(200, 14%, 51%)` - `#718894`
-  * `HSL(200, 14%, 65%)` - `#99aab2`
-* Accents
-  * Red - `HSL(0, 31%, 55%)` - `#b06969`
-  * Orange - `HSL(20, 31%, 55%)` - `#b08069`
-  * Yellow - `HSL(50, 31%, 55%)` - `#b0a469`
-  * Green - `HSL(100, 14%, 55%)` - `#879c7c`
-  * Cyan - `HSL(170, 31%, 55%)` - `#69b0a4`
-  * Blue - `HSL(200, 31%, 55%)` - `#6998b0`
-  * Purple - `HSL(300, 14%, 55%)` - `#9c7c9c`
+5. Pick a Base16 color theme:
+    ```zsh
+     base16_flat
+    ```
 
 ### License
 
