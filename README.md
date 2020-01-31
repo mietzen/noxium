@@ -4,16 +4,28 @@ Fork of Nox by [Kabir Shah](https://kabir.sh)
 
 ![Noxium](https://raw.githubusercontent.com/mietzen/noxium/master/img/noxium.png)
 
-### Usage
+### Install
 
-##### ZSH (oh-my-zsh)
 
-Nox has an oh-my-zsh theme that displays the current working directory and git status in the terminal. To use it, download the `noxium.zsh-theme` file to the oh-my-zsh themes directory (`~/.oh-my-zsh/themes`). After that, set `ZSH_THEME` to `"noxium"` in your `.zshrc` file.
+#### [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+1. Download the theme in your oh-my-zsh's themes directory:
+
+    ```zsh
+    wget -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/noxium.zsh-theme https://raw.githubusercontent.com/mietzen/noxium/master/noxium.zsh-theme
+    ```
+
+2. Activate the theme in `~/.zshrc`:
+
+    ```zsh
+    ZSH_THEME="noxium"
+    ```
 
 ### Tip
 
 Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
 ### Color Palette
 
 * Shades
