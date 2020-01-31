@@ -49,7 +49,7 @@ Prerequisite: [zsh](http://www.zsh.org/) and [Oh-my-zsh](https://github.com/ohmy
     mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
     ```
 
-5. Pick a Base16 color theme:
+5. Open a new terminal and pick a Base16 color theme:
     ```zsh
     base16_flat
     ```
