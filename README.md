@@ -13,7 +13,7 @@ Nox has an oh-my-zsh theme that displays the current working directory and git s
 ### Tip
 
 Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
+and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 ### Color Palette
 
 * Shades
