@@ -15,16 +15,14 @@ Fork of Nox by [Kabir Shah](https://kabir.sh)
     wget -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/noxium.zsh-theme https://raw.githubusercontent.com/mietzen/noxium/master/noxium.zsh-theme
     ```
 
-2.1 Activate the theme in `~/.zshrc`:
-
+2. Activate the theme in `~/.zshrc`:
     ```zsh
-    ZSH_THEME="noxium"
+     ZSH_THEME="noxium"
     ```
-
-2.2 Or download the minimal `.zshrc` from the Repo:
+   Or download the minimal `.zshrc` from the Repo:
 
     ```zsh
-    mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
+     mv ~/.zshrc ~/.zshrc.bak && wget -O ~/.zshrc https://raw.githubusercontent.com/mietzen/noxium/master/.zshrc
     ```
 
 ### Tip
