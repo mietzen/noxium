@@ -56,4 +56,4 @@ Prerequisite: [zsh](http://www.zsh.org/) and [Oh-my-zsh](https://github.com/ohmy
 
 ### License
 
-Licensed under the [MIT License](https://raw.githubusercontent.com/mietzen/noxium/master/LICENSE) by [mietzen](https://github.com/mietzen)
+Licensed under the [MIT License](https://raw.githubusercontent.com/mietzen/noxium/master/LICENSE) by [ngerke](https://github.com/ngerke)
