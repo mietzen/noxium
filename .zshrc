@@ -4,6 +4,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.profile
+unsetopt nomatch
 
 search-big-files () {
     if [[ $# -ne 2 ]] ; then
